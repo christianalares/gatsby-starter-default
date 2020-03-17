@@ -6,6 +6,11 @@
     "stylelint-config-recommended-scss"
   ],
   "rules": {
-    "prettier/prettier": [true]
+    "prettier/prettier": [
+      true,
+      {
+        "singleQuote": true
+      }
+    ]
   }
 }
