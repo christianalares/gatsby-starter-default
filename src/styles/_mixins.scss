@@ -1,0 +1,17 @@
+@import "./variables";
+
+@mixin mq-390 {
+  @media (min-width: 24.375em) {
+    @content;
+  }
+}
+
+@mixin mq-540 {
+  @media (min-width: 33.75em) {
+    @content;
+  }
+}
+
+@function space($nr: 1) {
+  @return $nr * $base-spacing;
+}
